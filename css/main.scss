@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    .main{
+        width: 1440px;
+        height: 100px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logojon{
+            margin-left: 81px;
+        }
+        
+    }
+   
+}
+
+.main{
+    .main_ul{
+        list-style: none;
+        display: flex;
+        margin-right: 80px;
+    }
+    
+    .main_li{
+        margin-left: 33px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #4f81c6;
+        cursor: pointer;
+        
+    
+    }
+    
+    .main_li:hover{
+        transition: 0.3s;
+        color: #1b365f;
+    }
+    
+    .main_li:active{
+        transition: 0.3s;
+        color: #edf1f7;
+    }
+}
+
+.hero{
+    width: 100%;
+    height: 450px;
+    margin-top: 45px;
+}
+
+.img{
+    width: 1280px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.hot_coffee{
+    border-radius: 10px;
+}
+
+.hero_text{
+    width: 475px;
+    height: 250px;
+    position: absolute;
+    top: 137px;
+    left: 85px;
+    .About{
+        font-family: 'Fraunces', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+
+    }
+    .information{
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FEFCF7;
+        margin-top: 24px;
+    
+    }
+}
+
+.navbar{
+    width: 100%;
+    height: 520px;
+    margin-top: 168px;
+}
+
+.container_waiter{
+    width: 1110px;
+    height: 520px;
+    margin: auto;
+    .waiter{
+        width: 445px;
+        height: 520px;
+        background-color: #fff;
+        
+    }
+
+    .waiter_coffee{
+        border-radius: 8px;
+    }
+
+    .navbar_text{
+        width: 540px;
+        height: 520px;
+        margin-top: -520px;
+        margin-left: 570px;
+    }
+    .our{
+        font-family: 'Fraunces', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+        padding-top: 90px;
+    
+    }
+    .information_text{
+        margin-top: 32px;
+        font-family: 'Barlow',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(51, 61, 75, 0.8);
+    }
+    
+}
+
+.quality{
+    width: 100%;
+    height: 474px;
+    margin-top: 268px;
+    
+}
+.quality_text{
+    width: 1280px;
+    height: 474px;
+    background-color: #333D4B;
+    margin: auto;
+    display: flex;
+    border-radius: 8px;
+    .text{
+        width: 540px;
+        height: 474px;
+        margin-top: 88px;
+        margin-left: 85px;
+        margin-right: 92px;
+        .quality_one{
+            font-family: 'Fraunces', sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FEFCF7;
+        }
+        .information_quality{
+            font-family: 'Barlow', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: rgba(254, 252, 247, 0.8);
+            margin-top: 32px;
+        }
+    }
+
+    .coffee{
+        width: 445px;
+        height: 474px;
+        border-radius: 8px;
+        margin-top: -124px;
+    }
+    
+    
+}
+
+.container_headquarters{
+    width: 100%;
+    height: 366px;
+    
+    .headquarters{
+        width: 1045px;
+        height: 366px;
+        background-color: rgb(241, 237, 237);
+        margin: auto;
+        margin-top: 168px;
+        
+        .OUR{
+            font-family: 'Fraunces', sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            
+        }
+
+        .headquarters_ul{
+            display: flex;
+            list-style-type: none;
+        }
+
+        .headquarters_li{
+            width: 272px;
+            height: 366px;
+            margin-top: 45px;
+            margin-left: 40px;
+            margin-right: 35px;
+            
+                
+            
+            .United{
+                font-family: 'Fraunces', sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 36px;
+                color: #333D4B;
+                margin-top: 45px;
+            }
+            .UK_information{
+                font-family: 'Barlow', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #333D4B;
+                margin-top: 24px;
+    
+            }
+
+            
+
+            .Canada{
+                font-family: 'Fraunces', sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 36px;
+                color: #333D4B;
+                margin-top: 45px;
+            }
+            .canada_information{
+                font-family: 'Barlow', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #333D4B;
+                margin-top: 24px;
+                
+    
+            }
+
+            .Australia{
+                font-family: 'Fraunces', sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 36px;
+                color: #333D4B;
+                margin-top: 45px;
+            }
+            .Australia_information{
+                font-family: 'Barlow', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #333D4B;
+                margin-top: 24px;
+    
+            }
+            
+              
+            
+
+        }
+        
+    }
+}
+
+.footer{
+    width: 1280px;
+    height: 208px;
+    background-color: #F5F5F5;
+    margin: auto;
+    margin-top: 168px;
+}
+
+.footer_main{
+    width: 1280px;
+    height: 120px;
+    background-color: #2C343E;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo_footer{
+    margin-left: 86px;
+    width: 203px;
+    height: 24px;
+    left: 197.9px;
+    top: 3434.44px;
+    
+    
+}
+
+.footer_ul{
+    list-style: none;
+    display: flex;
+    margin-left: 103px;
+}
+
+.footer_li{
+    margin-left: 33px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    transition: 0.5s;
+
+}
+
+.footer_li:hover{
+    transition: 0.5s;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer_li:active{
+    transition: 0.3s;
+    color: rgb(162, 138, 138);
+    box-shadow: 10px 10px 50px 4px rgb(179, 165, 165);
+}
+
+.facebook{
+    margin-left: 369px;
+}
+
+.twitter{
+    margin-left: 24px;
+    margin-right: 24px;
+}
